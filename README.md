@@ -4,6 +4,13 @@ This project provides a RESTful API for accessing a SWIFT codes database. API do
 
 
 ## Run
+Fill in the database credentials in the .env file.
+```bash
+MYSQL_DATABASE=database
+MYSQL_ROOT_PASSWORD=
+MYSQL_USER=
+MYSQL_PASSWORD=
+```
 
 To build and run the application with Docker, execute:
 
